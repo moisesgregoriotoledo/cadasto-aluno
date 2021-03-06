@@ -1,0 +1,13 @@
+C:\Users\mogre\testa\bin\Debug\netcoreapp3.1\testa.exe
+C:\Users\mogre\testa\bin\Debug\netcoreapp3.1\testa.deps.json
+C:\Users\mogre\testa\bin\Debug\netcoreapp3.1\testa.runtimeconfig.json
+C:\Users\mogre\testa\bin\Debug\netcoreapp3.1\testa.runtimeconfig.dev.json
+C:\Users\mogre\testa\bin\Debug\netcoreapp3.1\testa.dll
+C:\Users\mogre\testa\bin\Debug\netcoreapp3.1\testa.pdb
+C:\Users\mogre\testa\obj\Debug\netcoreapp3.1\testa.csprojAssemblyReference.cache
+C:\Users\mogre\testa\obj\Debug\netcoreapp3.1\testa.AssemblyInfoInputs.cache
+C:\Users\mogre\testa\obj\Debug\netcoreapp3.1\testa.AssemblyInfo.cs
+C:\Users\mogre\testa\obj\Debug\netcoreapp3.1\testa.csproj.CoreCompileInputs.cache
+C:\Users\mogre\testa\obj\Debug\netcoreapp3.1\testa.dll
+C:\Users\mogre\testa\obj\Debug\netcoreapp3.1\testa.pdb
+C:\Users\mogre\testa\obj\Debug\netcoreapp3.1\testa.genruntimeconfig.cache
