@@ -1,3 +1,7 @@
+using System;
+
+
+
 namespace testa
 {
     public class Aluno
@@ -5,8 +9,11 @@ namespace testa
         public string Nome  { get; set; }
         public decimal Nota { get; set; }  
         public bool Aprovado 
+
         {
             get {return Nota >=8 ? true: false;}
         }
+
+        
     }
 }

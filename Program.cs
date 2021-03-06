@@ -9,7 +9,6 @@ namespace testa
         static void Main(string[] args)
         {
             var alunos = new Aluno[5];
-            Aluno aluno;
             var indice=0;
 
             var opcaoUsuario = ObterOpcaoUsuario();
@@ -19,22 +18,11 @@ namespace testa
                 switch (opcaoUsuario)
                 {
                     case "1":
-                        
-                        Console.WriteLine("escreva o nome do aluno");
-                        aluno = new Aluno();
-                        aluno.Nome = Console.ReadLine();
-                        Console.WriteLine(); 
-                        Console.WriteLine("escreva a nota do aluno");
-                        if (decimal.TryParse(Console.ReadLine(), out decimal nota))
-                        {
-                            aluno.Nota = nota;
-                        }
-                        else
-                        {
-                            throw new NewArgumentOutOfRangeException("o valor da nota deve ser decimal");
-                        }
-                        alunos[indice]= aluno;
-                        indice++;
+                     Casos.CadastrarAluno (alunos,indice, ()=>{ 
+                         throw new NewArgumentOutOfRangeException("valor invalido");
+                     });
+                        indice++; 
+
                     break; 
                     case "2":
                         foreach (var item in alunos)
@@ -91,6 +79,9 @@ namespace testa
 
             string OpcaoUsuario = Console.ReadLine();
             return OpcaoUsuario;
+        
         }
+
+       
     }
 }
